@@ -1,0 +1,9 @@
+"*":
+  core: {}
+  editor:
+    fontSize: 13
+    invisibles: {}
+  "exception-reporting":
+    userId: "8234f8ef-bfdc-fbc4-f6c2-93b428019890"
+  welcome:
+    showOnStartup: false
