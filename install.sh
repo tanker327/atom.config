@@ -31,3 +31,10 @@ sudo ln -s  $CURRENT_FOLDER/config.cson $HOME/.atom/config.cson
 sudo ln -s  $CURRENT_FOLDER/snippets.cson $HOME/.atom/snippets.cson
 sudo ln -s  $CURRENT_FOLDER/keymap.cson $HOME/.atom/keymap.cson
 sudo ln -s  $CURRENT_FOLDER/styles.less $HOME/.atom/styles.less
+
+
+# Install all the packages
+if [ -d 'packages.list' ]
+then
+  apm install --packages-file packages.list
+fi
