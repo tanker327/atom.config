@@ -1,5 +1,17 @@
 "*":
-  core: {}
+  "atom-beautify":
+    general:
+      _analyticsUserId: "fc14606d-d062-46fb-b0a7-5608b45ad514"
+    js:
+      indent_size: 2
+  autosave:
+    enabled: true
+  core:
+    disabledPackages: [
+      "language-c"
+      "language-csharp"
+      "language-go"
+    ]
   editor:
     fontSize: 13
     invisibles: {}
