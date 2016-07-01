@@ -14,7 +14,6 @@
 #
 # 'atom-workspace':
 #   'ctrl-shift-p': 'core:move-up'
-#   'ctrl-p': 'core:move-down'
 #
 # You can find more information about keymaps in these guides:
 # * https://atom.io/docs/latest/customizing-atom#customizing-key-bindings
@@ -25,4 +24,4 @@
 # https://github.com/bevry/cson#what-is-cson
 
 'atom-text-editor':
-  'ctrl-f': 'atom-beautify:beautify-editor'
+    'ctrl-f': 'atom-beautify:beautify-editor'
